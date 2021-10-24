@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content=''>
+    <meta name='author' content=''>
+    <title>CSS Responsive Mondrian Blocks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lte IE 9]>
+        <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
+        <script src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js'></script>
+    <![endif]-->
+    </head>
+    <body>
+        <main>
+            <section id="controlls">
+                <label for="greenify"><span >Add / Remove</span><br><span >Random Green:</span></label>
+                <input type="checkbox" id="greenify" name="greenify">
+            </section>
+           
+            <section id="Mondrian">
+               <div class="col" id="col1">
+                    <div class="row row1">
+                            <div class="content white"></div>
+                        <div class="col" >
+                            <div class="content blue"></div>
+                            <div class="content white"></div>
+                        </div>
+                    </div>
+                    <div class="row row2">
+                        <div class="content yellow"></div>
+                    </div> 
+               </div>
+               <div class="col" id="col2">
+                    <div class="row row1">
+                        <div class="content white"></div>
+                    </div>
+                    <div class="row row2">
+                        <div class="content white"></div>
+                    </div> 
+                    <div class="row row3">
+                        <div class="content white"></div>
+                        <div class="content blue"></div>
+                    </div>  
+               </div>
+               <div class="col" id="col3">
+                  <div class="row row1">
+                        <div class="content white"></div>
+                        <div class="content blue"></div>
+                        </div>
+                    <div class="row row2">
+                        <div class="content red"></div>
+                        <div class="col">
+                            <div class="content white"></div>
+                            <div class="row">
+                                <div class="content white"></div>
+                                <div class="content yellow"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row row3">
+                        <div class="content white"></div>
+                    </div>  
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="./script.js"></script>
+</html>
